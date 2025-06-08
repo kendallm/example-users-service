@@ -17,12 +17,6 @@ type UpdateUserResponse struct {
 	LastName  string
 }
 
-type User struct {
-	ID        string
-	FirstName string
-	LastName  string
-}
-
 type Service struct {
 	DB map[string]*User
 }
